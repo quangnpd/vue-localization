@@ -1,4 +1,4 @@
-# orgchart
+# Vue Multilanguage
 
 > A Muli-language for Vue.js App
 
