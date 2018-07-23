@@ -1,9 +1,9 @@
 {
-  "name": "vue-multilanguage",
-  "version": "1.0.1",
-  "description": "Multilanguage for Vue app",
+  "name": "vue-localization",
+  "version": "1.0.0",
+  "description": "Localizer plugin for Vue app",
   "author": "Quang NPD (quangnpd@gmail.com)",
-  "main": "dist/multilanguage.js",
+  "main": "dist/localization.js",
   "scripts": {
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",

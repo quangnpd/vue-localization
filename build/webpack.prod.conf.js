@@ -9,8 +9,8 @@ base.entry = {
 base.output = {
   path: config.build.assetsRoot,
   publicPath: config.build.assetsPublicPath,
-  filename: 'multilanguage.js',
-  library: 'VueMultiLanguage',
+  filename: 'localization.js',
+  library: 'VueLocalization',
   libraryTarget: 'umd'
 }
 
