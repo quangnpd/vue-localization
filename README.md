@@ -1,6 +1,6 @@
-# Vue Multilanguage
+# Vue Localization
 
-> A Muli-language for Vue.js App
+> A Localization plugin for Vue.js App
 
 ## Installation
 
@@ -20,16 +20,16 @@ import 'vue-localization/dist/localization.js
 
 ```javascript
 import Vue from 'vue'
-import MultiLanguage from 'vue-localization'
+import Localization from 'vue-localization'
 import LocaleSource from './locale/en.json'
 
-Vue.use(MultiLanguage, LocaleSource)
+Vue.use(Localization, LocaleSource)
 ```
 
 or
 
 ```javascript
-Vue.use(MultiLanguege)
+Vue.use(Localization)
 Vue.setLocale(LocaleSource)
 ```
 
