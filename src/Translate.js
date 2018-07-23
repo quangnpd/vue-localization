@@ -1,5 +1,5 @@
 export default {
-  name: 'translate',
+  name: 'Translate',
   props: {
     get: {
       type: String,

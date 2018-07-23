@@ -1,7 +1,7 @@
 import TranslateComponent from './Translate'
 export default {
   install(Vue, langJson = {}) {
-    Vue.setLang = locale => {
+    Vue.setLocale = locale => {
       Vue.$lang = locale
       Vue.prototype.$lang = Vue.$lang
       Vue.prototype.$lang.get = (key = '', def) => {
@@ -19,17 +19,17 @@ export default {
       }
     }
 
-    Vue.extendLang = locale => {
+    Vue.extendLocale = locale => {
       const currentLang = { ...Vue.$lang }
       delete currentLang.get
       const lang = {
         ...currentLang,
         ...locale
       }
-      Vue.setLang(lang)
+      Vue.setLocale(lang)
     }
 
-    Vue.setLang(langJson)
+    Vue.setLocale(langJson)
     Vue.component(TranslateComponent.name, TranslateComponent)
   }
 }

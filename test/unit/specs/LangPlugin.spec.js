@@ -12,7 +12,7 @@ const locale = {
   }
 }
 
-const extendLang = {
+const extendLocale = {
   extends: {
     label: 'Extended Label',
     other: {
@@ -37,7 +37,7 @@ describe('MultiLanguage plugin', () => {
   })
 
   it('should set language source correctly', () => {
-    Vue.setLang(locale)
+    Vue.setLocale(locale)
     expect(Vue.$lang).to.deep.include(locale)
   })
 
@@ -62,7 +62,7 @@ describe('MultiLanguage plugin', () => {
   })
 
   it('should be extend other source', () => {
-    Vue.extendLang(extendLang)
-    expect(Vue.$lang.extends).to.deep.include(extendLang.extends)
+    Vue.extendLocale(extendLocale)
+    expect(Vue.$lang.extends).to.deep.include(extendLocale.extends)
   })
 })

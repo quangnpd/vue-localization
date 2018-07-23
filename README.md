@@ -7,20 +7,20 @@
 #### ES6 Module
 
 ```bash
-npm i -s vue-multilanguage
+npm i -s https://github.com/quangnpd/vue-localization.git
 ```
 
 #### Built bundle file
 
 ```
-import 'vue-multilanguage/dist/multilanguage.js
+import 'vue-localization/dist/localization.js
 ```
 
 ## Usage
 
 ```javascript
 import Vue from 'vue'
-import MultiLanguage from 'vue-multilanguage'
+import MultiLanguage from 'vue-localization'
 import LocaleSource from './locale/en.json'
 
 Vue.use(MultiLanguage, LocaleSource)
@@ -30,7 +30,7 @@ or
 
 ```javascript
 Vue.use(MultiLanguege)
-Vue.setLang(LocalSource)
+Vue.setLocale(LocaleSource)
 ```
 
 ### Extend other local source
@@ -41,7 +41,7 @@ const extraLocaleSource = {
     some_label: 'Some label from other local source'
   }
 }
-Vue.extendLang(extraLocaleSource)
+Vue.extendLocale(extraLocaleSource)
 
 // Get value
 Vue.$lang.get('extends.some_label')
