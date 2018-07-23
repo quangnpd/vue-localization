@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "Multilanguage for Vue app",
   "author": "Quang NPD (quangnpd@gmail.com)",
-  "private": true,
   "main": "dist/multilanguage.js",
   "scripts": {
     "build": "node build/build.js",
