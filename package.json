@@ -1,6 +1,6 @@
 {
   "name": "@quangnpd/vue-localization",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Localizer plugin for Vue app",
   "author": "Quang NPD (quangnpd@gmail.com)",
   "main": "dist/localization.js",
@@ -23,7 +23,7 @@
     "localization",
     "locale"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
