@@ -10,6 +10,20 @@
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quangnpd/vue-localization.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quangnpd/vue-localization/issues"
+  },
+  "keywords": [
+    "language",
+    "localizer",
+    "localization",
+    "locale"
+  ],
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
