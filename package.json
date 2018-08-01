@@ -1,5 +1,5 @@
 {
-  "name": "vue-localization",
+  "name": "@quangnpd/vue-localization",
   "version": "1.0.0",
   "description": "Localizer plugin for Vue app",
   "author": "Quang NPD (quangnpd@gmail.com)",
