@@ -1,6 +1,6 @@
 {
   "name": "@quangnpd/vue-localization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Localizer plugin for Vue app",
   "author": "Quang NPD (quangnpd@gmail.com)",
   "main": "dist/localization.js",
@@ -25,6 +25,10 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
     "babel-loader": "^7.1.2",
@@ -35,10 +39,6 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
-    "vue": "^2.5.2"
-  },
-  "devDependencies": {
-    "autoprefixer": "^7.1.5",
     "chai": "^4.1.2",
     "chalk": "^2.1.0",
     "cross-env": "^5.0.5",
