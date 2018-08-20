@@ -7,7 +7,7 @@
 #### ES6 Module
 
 ```bash
-npm i -s https://github.com/quangnpd/vue-localization.git
+npm i -s @quangnpd/vue-localization
 ```
 
 #### Built bundle file

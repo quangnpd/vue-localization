@@ -1,6 +1,6 @@
 {
   "name": "@quangnpd/vue-localization",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Localizer plugin for Vue app",
   "author": "Quang NPD (quangnpd@gmail.com)",
   "main": "dist/localization.js",
@@ -57,7 +57,7 @@
     "friendly-errors-webpack-plugin": "^1.6.1",
     "http-proxy-middleware": "^0.17.4",
     "inject-loader": "^3.0.1",
-    "karma": "^1.7.1",
+    "karma": "^3.0.0",
     "karma-coverage": "^1.1.1",
     "karma-mocha": "^1.3.0",
     "karma-phantomjs-launcher": "^1.0.4",
